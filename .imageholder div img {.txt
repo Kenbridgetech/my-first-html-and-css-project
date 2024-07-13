@@ -1,0 +1,40 @@
+.imageholder div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+
+.imageholder div {
+  width: calc(100% / 4);
+
+imageholder {
+  display: flex;
+  flex-wrap: wrap;
+
+
+
+
+RESPONSIVENESS WITH DIFFERENT SCREEN 
+
+
+@media (max-width: 834px) {
+  .iconsimages div {
+    width: calc(100 / 2);
+  }
+}
+@media (max-width: 768px) {
+  .imageholder div {
+    width: calc(100% / 1);
+  }
+}
+@media (max-width: 480px) {
+  .imageholder div {
+    width: calc(100% / 1);
+  }
+}
+
+
+
+
+
+

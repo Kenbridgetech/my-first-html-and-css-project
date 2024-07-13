@@ -1,0 +1,400 @@
+/* the hero page is holding the background image */
+.heropage {
+  height: 100vh;
+  background-image: url(mobile\ phone.jpg);
+  /* /* background-position: center; */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  padding-top: 60;
+}
+.navbar {
+  height: 8vh;
+  background-color: aliceblue;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+  display: flex;
+  justify-content: center;
+}
+.parentdiv {
+  display: flex;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+
+  align-items: center;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#MENU {
+  display: flex;
+  gap: 24px;
+}
+.Deom {
+  font-size: larger;
+}
+.search {
+  color: red;
+}
+/* the css  below is targetting different device */
+
+.h1 h1 {
+  color: aliceblue;
+  font-size: 60px;
+  font-weight: 100;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.para {
+  font-size: 100;
+  font-weight: 50px;
+  color: aliceblue;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.button1 {
+  width: 200px;
+  height: 50px;
+  border: solid;
+  border-color: bisque;
+  background-color: blueviolet;
+  color: white;
+}
+.button2 {
+  width: 200px;
+  height: 50px;
+  border: solid;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+}
+
+.sectiondivforbody {
+  height: 60vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 120px;
+}
+.laptopcontainer img {
+  width: 50%;
+  height: 90%;
+}
+.laptopcontainer {
+  width: 100%;
+  padding-top: 90px;
+}
+
+.paragraphsection {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.paragraphsection h3 {
+  font-size: 60px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.paragraphsection p {
+  color: rgb(4, 4, 51);
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+.readme {
+  border-color: transparent;
+  background-color: blueviolet;
+  color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secondhero {
+  height: 60vh;
+  background-color: rgb(251, 251, 255);
+  padding-top: 70px;
+  padding-bottom: 150px;
+}
+.secondhero {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 120px;
+}
+.greenimage {
+  width: 100%;
+  padding-top: 180px;
+}
+.greenimage img {
+  width: 100%;
+  height: 50%;
+}
+.text2nd {
+  width: 50%;
+}
+.text2nd p {
+  color: brown;
+  font-size: 25px;
+  text-align: justify;
+  padding-top: 140px;
+  padding-left: 10px;
+}
+.seeme {
+  width: 200px;
+  height: 50px;
+  border: solid;
+  border-color: transparent;
+  background-color: brown;
+  color: aliceblue;
+  margin-left: 80px;
+  font-size: medium;
+  font-weight: bold;
+}
+.thirdsection {
+  height: 60vh;
+  background-color: brown;
+  padding-top: 10px;
+  background-image: url(glass\ sky\ color.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  align-items: center;
+}
+.headertext h1 {
+  text-align: center;
+}
+.headertext p {
+  text-align: center;
+}
+.headertext {
+  color: rgb(230, 8, 8);
+  padding-top: 100px;
+  justify-content: center;
+}
+.moreinfo {
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  margin-left: 90vh;
+  background-color: brown;
+  color: aliceblue;
+  font-size: large;
+}
+.headertext p {
+  font-size: medium;
+  font-weight: bold;
+}
+/* image display section coding */
+
+.imagedisplay {
+  background-color: black;
+  height: 160vh;
+  color: white;
+  align-content: center;
+}
+.imagedisplay h1 {
+  text-align: center;
+  padding-top: 70px;
+  font-weight: 100;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.imagedisplay p {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* working with decendant type of sector for my images */
+.imageholder div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* targetting only the div for my images */
+.imageholder div {
+  width: calc(100% / 4);
+}
+.imageholder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* the line below are all my media query section (this coode is important for device responsivenness) */
+
+/* end line of my media query section  */
+
+/* start up testimoney section */
+.testmony {
+  height: 80vh;
+  background-image: url(img\ 4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  padding-top: 20;
+}
+.writeup h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+.writeup p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 20px;
+}
+/* circle image is below */
+.writeup div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.writeup div {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.heropage h1 {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  padding-top: 50px;
+}
+.delight {
+  height: 80vh;
+  background-color: aquamarine;
+  text-align: center;
+  background-color: gray;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.akuchi H3 {
+  color: rgb(250, 248, 252);
+  padding-top: 30px;
+}
+.iconsimages div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.iconsimages div {
+  width: calc(100% / 4);
+}
+.iconsimages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.iconsimages div {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* download section before the footer line */
+.download {
+  height: 45vh;
+  background-color: snow;
+  align-content: center;
+}
+.childdiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 120px;
+}
+.childdiv button {
+  height: 50px;
+  width: 200px;
+  font-size: larger;
+  font-weight: bold;
+  border: solid;
+}
+.childdiv p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+.exampleerror {
+  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.exampleerror div img {
+  width: 50%;
+  height: 100%;
+}
+.textalign {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* media query */
+
+@media (max-width: 1024px) {
+  .akuchi div {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .imageholder div {
+    width: calc(100% / 2);
+  }
+}
+@media (max-width: 834px) {
+  .akuchi div {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar {
+    display: none;
+  }
+  .iconsimages div {
+    width: calc(100 / 2);
+  }
+}
+@media (max-width: 768px) {
+  .akuchi div {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .imageholder div {
+    width: calc(100% / 1);
+  }
+}
+@media (max-width: 480px) {
+  .akuchi div {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .imageholder div {
+    width: calc(100% / 1);
+  }
+}
